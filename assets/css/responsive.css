@@ -1,0 +1,95 @@
+/* PC  */
+@media (min-width:64em){
+    #header .nav{
+        display: inline-block;
+    }
+
+}
+/* TABLET  & MOBILE  */
+@media (max-width:64em){
+    .btn{
+        padding:15px 16px;
+    }
+    .contact-form{
+        padding-top:15px;
+        padding-bottom:15px;
+        line-height: 30px;
+    }
+    .platform{
+        font-size:48px;
+    }
+}
+/* TABLET  */
+@media (min-width:46.25em) and (max-width:63.9375em){
+ .nav {
+        display: inline-block !important;
+    }
+}
+/* MOBILE  */
+@media (max-width:46.1875em){
+    #header .menu {
+        top: 100%;
+        left:0;
+        background-color: black;
+        border-top: 1px solid #fff;
+        display:none;
+    }
+    #header .menu.open{
+        display: block;    
+    }
+    .nav a{
+        display: block;
+    }
+    .nav .subnav {
+        position: relative;
+        box-shadow: none;
+        background-color: rgb(95, 91, 91);     
+       
+    }
+    .nav .subnav li{
+        background-color: rgb(95, 91, 91);    
+    }
+    .nav>.subnav>li>a{
+        color: #c0c0c0 ;
+        padding: 6px 24px;
+    }
+    .nav .subnav li:hover a {
+        background-color: rgb(236, 43, 43);
+        color: #fff;
+    }
+    .nav a:first-child{
+        padding-top:4px; 
+    }
+    .nav { 
+        text-align: left;
+    } 
+    #header .barsbutton{
+        display: block;
+    }
+    #content .member-item{
+        width: 100%;  
+        margin-bottom: 10px;  
+    }
+    #content .member-item .img-member{
+        width:60%;
+    }
+    #content .location-list{
+        width:100%;
+    }
+    .s-full-width,
+    .s-col-full{
+        width: 100%;    
+    }
+    .s-text-center{
+        text-align: center;
+    }
+    .input-contact {
+        margin-top: 8px;
+    }
+    .platform{
+        font-size:28px;
+    }
+    .input-contact{
+        margin-top:32px ;
+    }
+}
